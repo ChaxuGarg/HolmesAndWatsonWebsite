@@ -1,0 +1,39 @@
+.enolaIntro {
+    height: 100vh;
+    border-bottom: 2px solid #e8e9ed;
+    display: flex;
+    flex-direction: column;
+}
+
+.enola__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 20vh 20vw auto 20vw;
+}
+
+.enola__left {
+    text-align: left;
+    font-size: 26px;
+    color: #353740;
+}
+
+.enola__right img {
+    min-width: 10vw;
+    max-width: 125px;
+}
+
+.enola__right p {
+    font-size: x-large;
+    font-weight: 600;
+    color: #5e6170;
+}
+
+.enola__bottom {
+    margin: auto 10vw 20vh 10vw;
+    border-radius: 60px;
+    background-color: #f9ffe7;
+    font-size: 36px;
+    font-weight: 100;
+    padding: 20px;
+    color: #353740;
+}

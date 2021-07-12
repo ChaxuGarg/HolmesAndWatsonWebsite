@@ -1,0 +1,49 @@
+.enolaWhy {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.enolaWhy__top {
+    display: flex;
+    margin: 10vh 10vw 10vh 10vw;
+    justify-content: space-between;
+}
+
+.enolaWhy__top div {
+    max-width: 45vw;
+    min-width: 30vw;
+}
+
+.enolaWhy__title {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    color: #353740;
+}
+
+.enolaWhy__text {
+    font-size: 24px;
+    color: #353740;
+    text-align: left;
+    line-height: 30px;
+}
+
+.enolaWhy__top span {
+    font-size: 15px;
+    text-align: left;
+}
+
+.enolaWhy__img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.enolaWhy__img img {
+    width: 10vw;
+}
+
+.enola__border {
+    border-bottom: 2px solid #e8e9ed;
+}

@@ -1,0 +1,28 @@
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(211, 211, 211, 0.5);
+    border-top: 0.8px solid lightgray;
+}
+
+.contactUs__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 25vw 25vh 10vw;
+    text-align: left;
+    font-weight: 300;
+}
+
+.contactUs__left:hover {
+    cursor: pointer;
+}
+
+.contactUs__follow {
+    margin: 5vh auto 10vh 5vw;
+    font-weight: 300;
+}
+
+.contactUs__more {
+    margin-bottom: 5vh;
+    font-weight: 600 !important;
+}

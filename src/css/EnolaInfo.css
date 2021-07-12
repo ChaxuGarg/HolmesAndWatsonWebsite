@@ -1,0 +1,36 @@
+.enolaInfo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.enolaInfo__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 10vh 15vw auto 15vw;
+}
+
+.enolaInfo__top div {
+    min-width: 13vw;
+    max-width: 180px;
+}
+
+.enolaInfo__top p {
+    font-size: 36px;
+    font-weight: bold;
+    color: #353740;
+}
+
+.enolaInfo__top span {
+    font-size: 24px;
+    color: #353740;
+}
+
+.enolaInfo__bottom {
+    margin: auto 10vw 20vh 10vw;
+    border-radius: 32px;
+    background-color: #fff7ee;
+    font-size: 36px;
+    font-weight: 100;
+    padding: 20px;
+}

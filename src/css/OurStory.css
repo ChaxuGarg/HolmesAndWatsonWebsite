@@ -1,0 +1,40 @@
+.ourStory {
+    display: flex;
+    flex-direction: column;
+}
+
+.ourStory__container {
+    display: flex;
+    margin: 6vh 10vw 6vh 10vw;
+    justify-content: space-between;
+}
+
+.ourStory__container div {
+    max-width: 30vw;
+    min-width: 25vw;
+}
+
+.ourStory__title {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    color: #353740;
+}
+
+.ourStory__text {
+    font-size: 24px;
+    text-align: left;
+    color: #353740;
+    line-height: 30px;
+}
+
+.ourStory__img img {
+    min-width: 15vw;
+}
+
+.ourStory__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+

@@ -1,0 +1,19 @@
+.about {
+    height: 93vh;
+    display: table;
+    border-bottom: 2px solid #e8e9ed;
+}
+
+.text {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100vw;
+    color: #353740;
+}
+
+.about p {
+    display: block;
+    text-align: center;
+    margin: 10vh 25vw;
+    font-size: 64px;
+} 

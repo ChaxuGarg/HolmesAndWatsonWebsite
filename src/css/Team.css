@@ -1,0 +1,39 @@
+.team {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.team__title {
+    padding-top: 15vh;
+    margin-left: 5vw;;
+    width: 30vw;
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 1px solid #e8e9ed;
+    color: #353740;
+}
+
+.team__icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 10vh 5vw;
+}
+
+.team__icons img {
+    height: 40vh;
+    min-width: 15vw;
+    max-width: 220px;
+}
+
+.team__info {
+    font-size: 24px;
+    font-weight: 100;
+    color: #8798ad;
+}
+
+.team__text {
+    font-size: 24px !important;
+    color: #353740 !important;
+}
